@@ -54,3 +54,9 @@ var sec = name.toUpperCase();
 alert("Hello, " + sec.slice(0,1) + fir.slice(1,name.length));       
 
 // for printing out hello, and adding the first nname an automatic capital letter and the rest small
+
+var dogName = prompt("what is your dog name?");
+var dogAge = prompt("how old is " + dogName + " in doggy Years?");
+var humanAge = (dogAge - 2) * 4 + 21;
+alert(dogName + " is " + humanAge + " in human years" ) ;
+//for converting doggy years to human years
