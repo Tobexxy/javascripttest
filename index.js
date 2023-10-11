@@ -107,3 +107,50 @@ function bmiCalculator(kg, m2){
 bmiCalculator(65, 1.8);
 
 // bmi calculator code
+
+
+var n = Math.random();
+var rand = Math.floor(n * 6) + 1;
+console.log(rand);
+ /// Random number generator from 1-6
+
+
+var yourName = prompt("Enter your name below");
+var loveName = prompt("Enter your lover's name below");
+alert("Calculating match between lovers");
+var n = Math.random();
+var rand = Math.floor(n * 100) + 1;
+
+if (rand > 70){
+    alert("The compactablility between " + yourName + " and " + loveName + " is " + rand + "%." + " You are bound to live a life of happiness because you are very compactable");
+} else{
+    alert("The compactablility between " + yourName + " and " + loveName + " is " + rand + "%," + " Nah only God fit help una relationship,  make una just dey play dey go");
+}
+
+//console.log("The compactablility between " + yourName + " and " + loveName + " is " + rand + "%");
+
+ /// Random lovers compactablility generator from 1-100
+
+
+ var yourName = prompt("Enter your name below");
+var loveName = prompt("Enter your lover's name below");
+alert("Calculating match between lovers");
+var n = Math.random();
+var rand = Math.floor(n * 100) + 1;
+
+if (rand >= 70){
+    alert("The compactablility between " + yourName + " and " + loveName + " is " + rand + "%." + " You are bound to live a life of happiness because you are very compactable");
+} 
+
+if (rand >= 50 && rand < 70){
+    alert("The compactablility between " + yourName + " and " + loveName + " is " + rand + "%." + " You have escape, Nah God save you");
+} 
+
+if (rand < 50){
+    alert("The compactablility between " + yourName + " and " + loveName + " is " + rand + "%," + " Nah only God fit help una relationship,  make una just dey play dey go");
+}
+
+//console.log("The compactablility between " + yourName + " and " + loveName + " is " + rand + "%");
+
+ ///  New Random lovers compactablility generator from 1-100 withe added message to the percentage
+
