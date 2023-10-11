@@ -60,3 +60,50 @@ var dogAge = prompt("how old is " + dogName + " in doggy Years?");
 var humanAge = (dogAge - 2) * 4 + 21;
 alert(dogName + " is " + humanAge + " in human years" ) ;
 //for converting doggy years to human years
+
+function getMilk(money) { 
+    console.log("leaveHouse");
+    console.log("moveRight");
+
+    var numberMilk = Math.floor(money / 1.5); 
+    console.log("buy " + numberMilk +" bottles of milk");  
+
+    
+    return money % 1.5; // this code is to print out whats left as per the change value left from the purchase, the remainder
+
+
+}
+
+var change = getMilk(13);  
+console.log("You have " + change + " change left")
+
+
+
+
+//using function to instruct a robot to buy milk, it was give an amount of money and to determine how many bottels it can buy 
+
+
+function lifeInweeks(age){
+    var yourAge = 90 - age;
+    var days = 365 * yourAge;
+    var weeks = 52 * yourAge;
+    var months = 12 * yourAge;
+    console.log("You have "+ days + " days, " + weeks + " weeks, " + months + " months, left");
+    
+}
+
+lifeInweeks(12);
+
+//life calculations code, if life expectancy doesnt exceed 90 years,shows value in days, weeks and months
+
+
+
+function bmiCalculator(kg, m2){
+    var bmi = Math.round(kg /(m2 * m2));
+   return bmi;
+}
+
+
+bmiCalculator(65, 1.8);
+
+// bmi calculator code
