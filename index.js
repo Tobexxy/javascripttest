@@ -154,3 +154,18 @@ if (rand < 50){
 
  ///  New Random lovers compactablility generator from 1-100 withe added message to the percentage
 
+
+ function isLeap(year){
+
+    if (year % 4 === 0 && year % 100 !== 0 || year % 400 === 0){
+        alert(year + " is a leap year")
+    } else{
+        alert(year + " is not a leap year")
+    }
+    
+}
+
+isLeap(2024);
+
+// leap year identifier
+
