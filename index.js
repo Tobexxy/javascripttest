@@ -169,3 +169,21 @@ isLeap(2024);
 
 // leap year identifier
 
+
+var guestList = ["Tobi", "Seyi", "Bobola", "Jojo", "Timi", "Gbemi"];
+console.log(guestList[5]);  // checks the name in the guestList
+
+var name = prompt("Please insert your name below");
+var fir = name.toLocaleLowerCase();
+var sec = name.toUpperCase();
+var dataName = sec.slice(0,1) + fir.slice(1,name.length);
+
+var check = guestList.includes(dataName);
+
+if (check === true){
+    alert("Welcome " + dataName + " You're on the list")
+}else{
+    alert("Sorry " + dataName + " you're not on the list")
+}
+
+// SIMPLE GUEST LIST CHECKER
