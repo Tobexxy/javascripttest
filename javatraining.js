@@ -187,3 +187,30 @@ if (check === true){
 }
 
 // SIMPLE GUEST LIST CHECKER
+
+// SIMPLE CALCULATOR MACHINE
+function add(a,b) { 
+    return a + b                   
+}
+
+function times(a,b) { 
+    return a * b                   
+}
+
+function sub(a,b) { 
+    return a - b                   
+}
+
+function divide(a,b) { 
+    return a / b                   
+}
+
+
+function calculator(a,b,operator) { 
+    return operator(a,b);                   
+}
+
+calculator(5,6,add);//adds the function
+calculator(5,6,sub);//subtracts the function
+calculator(2,6,divide);//divedes the function
+calculator(5,6,times);//multiplies the function
