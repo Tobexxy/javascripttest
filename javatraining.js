@@ -214,3 +214,26 @@ calculator(5,6,add);//adds the function
 calculator(5,6,sub);//subtracts the function
 calculator(2,6,divide);//divedes the function
 calculator(5,6,times);//multiplies the function
+
+// defining multiple variables all at once at the same time
+var housekeeper = {
+    name: "joy",
+    experience: 5,
+    age: 23,
+    language: ["english", "french"],
+    workPermit: true
+}
+
+console.log("hi " + housekeeper.name + " i can see you have " + housekeeper.experience + " years of experience and speak both " + housekeeper.language + " you are also " + 
+           housekeeper.age + " years old");
+
+//mpdifing the above code for multiple entries
+function Housekeeper (yoE, name, age) {
+    this.yoE = yoE;
+    this.name = name;
+    this.age = age;
+}
+
+var housekeeper1 = new Housekeeper(6, "tomi", 23);
+
+console.log(housekeeper1.age)
